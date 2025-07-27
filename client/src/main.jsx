@@ -41,6 +41,7 @@ const router = createBrowserRouter([
   { path: '/login', element: <Login /> },
   { path: '/signup', element: <Signup /> },
   { path: '/forgot-password', element: <ForgotPassword /> },
+ 
   {
     path: '/',
     element: <App />,
@@ -51,7 +52,7 @@ const router = createBrowserRouter([
       { path: '/discover', element: <Discover /> },
       // { path: '/trips', element: <Trips /> },
       { path: '/review', element: <Review /> },
-      // { path: '/forums', element: <Forums /> },
+       { path: '/forums', element: <Forums /> }, // ✅ Added Forums route
       { path: '/contributors', element: <Contributors /> },
       { path: '/hotels', element: <Hotels /> },
       { path: '/hotels/:id', element: <HotelDetails /> },
